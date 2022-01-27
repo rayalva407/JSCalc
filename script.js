@@ -1,2 +1,10 @@
 displayValue = document.querySelector("#display");
-displayValue.innerText = "Hello World!"
+displayContent = document.querySelector("display-text")
+buttons = document.querySelector("#buttons")
+
+buttons.addEventListener("click", (e) => {
+  if (e.target.nodeName !== 'BUTTON') {
+    return;
+  }
+  console.log(e.target.nodeName)
+})

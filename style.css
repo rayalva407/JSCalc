@@ -21,17 +21,17 @@
   flex-direction: column;
   text-align: center;
   background-color: #0a090981;
-  width: 35%;
+  width: 25%;
   height: 70%;
-  padding: 0px;
+  padding: 8px;
   border-radius: 2%;
 }
 
 #display {
   display: flex;
   padding: 10px;
-  background-color: #0090adc4;
-  height: 20%;
+  background-color: #01d2fc11;
+  height: 15%;
   justify-content: flex-end;
   align-items: flex-end;
 }
