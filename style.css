@@ -2,6 +2,7 @@
   padding: 0;
   margin: 0;
   color: white;
+  font-family: sans-serif;
   /* border: 5px solid red; */
 }
 
@@ -29,7 +30,7 @@
 #display {
   display: flex;
   padding: 10px;
-  background-color: #0a09095d;
+  background-color: #0090adc4;
   height: 20%;
   justify-content: flex-end;
   align-items: flex-end;
@@ -47,10 +48,15 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 2em;
+  font-size: 2.5em;
   background-color: #0a09095d;
+  border: none;
 }
 
 .number:hover {
-  background-color: red;
+  background-color: #b7094c;
+}
+
+.number:active {
+  background-color: #b7094c7c;
 }
