@@ -2,7 +2,7 @@
   padding: 0;
   margin: 0;
   color: white;
-  border: 5px solid red;
+  /* border: 5px solid red; */
 }
 
 #container {
@@ -20,10 +20,15 @@
   flex-direction: column;
   text-align: center;
   background-color: #0a090981;
+  width: 35%;
+  height: 70%;
+  padding:0% 10px;
+  border-radius: 2%;
 }
 
 #display {
   display: flex;
+  padding: 10px;
   background-color: #0a09095d;
   height: 20%;
   justify-content: flex-end;
@@ -34,9 +39,18 @@
   display: grid;
   grid-gap: 5px;
   grid-template-columns: auto auto auto auto;
-  padding: 10px;
+  height: 65%;
+  padding-top: 10px;
 }
 
 .number {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2em;
   background-color: #0a09095d;
+}
+
+.number:hover {
+  background-color: red;
 }
